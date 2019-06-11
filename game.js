@@ -68,13 +68,13 @@ var playGame = function() {
 
 var winGame = function() {
   Game.setBoard(3,new TitleScreen("You win!",
-                                  "Press fire to play again",
+                                  "Press firexx to play again",
                                   playGame));
 };
 
 var loseGame = function() {
   Game.setBoard(3,new TitleScreen("You lose!",
-                                  "Press fire to play again",
+                                  "Press fireyy to play again",
                                   playGame));
 };
 
